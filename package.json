@@ -50,7 +50,9 @@
     "runkoa": "^1.3.1",
     "schema-couch": "github:kristianmandrup/schema-couch#master",
     "url-join": "^1.1.0",
-    "vue-apollo": "^1.0.0-rc.1"
+    "vue-apollo": "^1.0.0-rc.1",
+    "artifactor-models": "kristianmandrup/artifactor-models#master",
+    "artifactor-adapters": "kristianmandrup/artifactor-adapters#master"
   },
   "devDependencies": {
     "babel-cli": "^6.14.0",
