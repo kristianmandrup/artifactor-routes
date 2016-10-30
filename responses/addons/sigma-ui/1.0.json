@@ -1,0 +1,53 @@
+{
+  "name": "sigma-ui",
+  "description": "Sigma UI framework",
+  "date": "2016-07-21",
+  "version": "1.0",
+  "rating": "4.2",
+  "author": {
+    "name": "Kristian Mandrup"
+  },
+  "type": "addon",
+  "keywords": [
+    "ui",
+    "framework"
+  ],
+  "categories": [
+    "ui",
+    "ux"
+  ],
+  "repo": "github:sigmaframeworks/sigma-ui-framework",
+  "site": "http://demo.sigmaframeworks.io/",
+  "notice": "Added calendar control",
+  "status": "stable",
+  "installations": 102,
+  "ratings": [
+    { "rating": "4", "comment": "Perfect for my needs", "user": "goofy" },
+    { "rating": "5", "comment": "Bootstrap UI looks good", "user": "megaboy" }
+  ],
+  "install": {
+    "bundles": {
+      "vendor-lib.js": {                
+      },
+      "app.js": {                
+      }
+    },
+    "dependencies": {
+      "libs": [
+        "jquery"
+      ],
+      "plugins": [
+        "aurelia-validate",
+        "aurelia-i18n"
+      ],
+      "typescript": {
+        "typings": [
+          "jquery"
+        ],
+        "dtsSources": [
+          "node_modules/jquery/**.*.d.ts"        
+        ]
+      }
+    }
+  }  
+}

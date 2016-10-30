@@ -1,0 +1,15 @@
+{
+  "name": "jquery",
+  "description": "jquery",
+  "version": "1.0.0",
+  "bundles": {
+    "vendor-libs.js": {
+      "prepend": {
+
+      },
+      "dependencies": {
+
+      }
+    }
+  }
+}

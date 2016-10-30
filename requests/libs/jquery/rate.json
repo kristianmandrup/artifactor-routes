@@ -1,0 +1,9 @@
+{
+  "name": "jquery",  
+  "version": "1.2",
+  "rating": {
+    "vote": "5",
+    "comment": "Awesome stuff!!",
+    "user": "trisha7"
+  }
+}

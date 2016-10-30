@@ -1,0 +1,42 @@
+{
+  "name": "aurelia-i18n",
+  "description": "i18n using i18-next",
+  "author": {
+    "organisation": "aurelia"
+  },
+  "type": "plugin",
+  "keywords": [
+    "i18n"
+  ],
+  "categories": [
+    "i18n"
+  ],
+  "version": "1.0.0",
+  "location": "github:aurelia/aurelia-i18n#master",
+  "notice": "Works",
+  "status": "stable",
+  "install": {
+    "bundles": {
+      "vendor-libs.js": {
+        "dependencies": [          
+        ],
+        "prepends": [          
+        ]
+      }
+    },
+    "dependencies": {
+      "addons": [
+
+      ],
+      "plugins": [
+
+      ],
+      "libs": [
+
+      ],
+      "typings": {
+
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "contacts",
+  "description": "Contacts management",
+  "author": {
+    "name": "Kristian Mandrup",
+    "alias": "kmandrup",
+    "email": "kmandrup@gmail.com",
+    "organisation": "google",
+    "profile": "developers.google.com/kmandrup"
+  },
+  "type": "component",
+  "keywords": [
+    "contacts"
+  ],
+  "categories": [
+    "entity"
+  ],
+  "popularWith": {
+    "components": {
+      "edgy": {
+        "combineCount": 1151
+      }
+    },
+    "apps": {
+      "social-app": {
+        "combineCount": 94
+      }
+    }
+  },
+  "version": "1.2",
+  "location": "github:kmandrup/contacts#1.2",
+  "notice": "Added bootstrap",
+  "status": "beta",
+  "ratings": [
+    { "rating": "4", "comment": "Perfect for my needs", "user": "goofy" },
+    { "rating": "2", "comment": "Missing a Dialogue", "user": "all4you" },
+    { "rating": "3", "comment": "Bootstrap UI looks good", "user": "megaboy" }
+  ],
+  "rating": "3.2",
+  "fakes": "complete",
+  "preview": "complete",
+  "docs": "complete",
+  "tests": "incomplete",
+  "configs": {
+    "local": "complete",
+    "remote": "alpha"
+  },
+  "ui": {
+    "bootstrap": "stable",
+    "foundation": "beta"
+  },
+  "install": {
+    "bundles": {
+    },
+    "dependencies": {
+      "components": {
+        "entity": {
+          "version": "^1.0"
+        }
+      },
+      "libs": [
+        "lodash"
+      ]
+    }
+  }  
+}

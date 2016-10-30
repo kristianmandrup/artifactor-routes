@@ -1,0 +1,46 @@
+{
+  "name": "guest-app",
+  "description": "Contacts management",
+  "date": "2016-07-21",
+  "version": "1.0.2",
+  "rating": "4.2",
+  "author": {
+    "name": "Kristian Mandrup"
+  },
+  "type": "app",
+  "keywords": [
+    "guest",
+    "login",
+    "social",
+    "authentication"
+  ],
+  "categories": [
+    "authentication",
+    "social"
+  ],
+  "location": "github:kmandrup/guest-app#1.0",
+  "notice": "Added foundation",
+  "status": "beta",
+  "ratings": [
+    { "rating": "4", "comment": "Perfect for my needs", "user": "goofy" },
+    { "rating": "2", "comment": "Missing a Dialogue", "user": "all4you" },
+    { "rating": "3", "comment": "Bootstrap UI looks good", "user": "megaboy" }
+  ],
+  "install": {
+    "bundles": {
+      "vendor-lib.js": {                
+      }
+    },
+    "dependencies": {
+      "components": {
+        "login-modal": {
+          "version": "^1.0",
+          "mountPath": "./login"
+        }
+      },
+      "libs": [
+        "lodash"
+      ]
+    }
+  }   
+}

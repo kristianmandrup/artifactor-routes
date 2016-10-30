@@ -1,0 +1,63 @@
+{
+  "name": "bootstrap",
+  "description": "Bootstrap UI/UX framework",
+  "date": "2016-07-21",
+  "version": "1.3",
+  "rating": "4.1",
+  "author": {
+    "alias": "moonboy",
+    "organisation": "twitter"
+  },
+  "type": "lib",
+  "keywords": [
+    "ui",
+    "ux",
+    "bootstrap"
+  ],
+  "categories": [
+    "ui",
+    "ux"
+  ],
+  "popularWith": {
+    "components": {
+      "edgy": {
+        "combined": 2134 
+      }
+    },
+    "apps": {
+      "social-app": {
+        "combined": 134
+      },
+      "marketplace-app": {
+        "combined": 134
+      }
+    }
+  },  
+  "location": "github:twitter/bootstrap#1.2",
+  "notice": "Fixed flex grids",
+  "status": "stable",
+  "installations": 1795,
+  "ratings": [
+    { "rating": 3, "comment": "pretty good" },
+    { "rating": 5, "comment": "works perfectly" }
+  ],
+  "install": {
+    "bundles": {
+      "vendor-libs.js": {
+        "dependencies": [
+          {
+            // bootstrap styles etc.
+          }
+        ]
+      }
+    },
+    "dependencies": {
+      "libs": [
+        "jquery"
+      ]
+    },
+    "prepend": [
+
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "contacts-app",
+  "description": "Contacts management",
+  "author": {
+    "name": "Kristian Mandrup",
+    "alias": "kmandrup",
+    "email": "kmandrup@gmail.com",
+    "organisation": "google",
+    "profile": "developers.google.com/kmandrup"
+  },
+  "type": [
+    "app"
+  ],
+  "keywords": [
+    "contacts"
+  ],
+  "categories": [
+    "entity"
+  ],
+  "version": "0.5.0",
+  "location": "github:kmandrup/contacts-app#1.2",
+  "notice": "Added bootstrap",
+  "status": "beta"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "aurelia-i18n",
+  "description": "i18n using i18-next",
+  "author": {
+    "name": "Kristian Mandrup",
+    "alias": "kmandrup",
+    "email": "kmandrup@gmail.com",
+    "organisation": "google",
+    "profile": "developers.google.com/kmandrup"
+  },
+  "type": [
+    "plugin"
+  ],
+  "keywords": [
+    "i18n"
+  ],
+  "categories": [
+    "i18n"
+  ],
+  "version": "1.0.0",
+  "location": "github:aurelia/aurelia-i18n#master",
+  "notice": "Works",
+  "status": "stable"
+}

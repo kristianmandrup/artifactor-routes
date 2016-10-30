@@ -1,0 +1,40 @@
+{
+  "name": "sigma-ui",
+  "description": "UI framework for Aurelia by Sigma frameworks",
+  "author": {
+  },
+  "type": [
+    "addon"
+  ],
+  "keywords": [
+    "ui",
+    "framework"
+  ],
+  "categories": [
+    "ui"
+  ],
+  "version": "1.0.0",
+  "location": "github:sigmaframeworks/sigma-ui-framework",
+  "notice": "Renamed to sigma",
+  "status": "stable",
+  "bundles": {
+
+  },
+  "dependencies": {
+    "libs": [
+      "jquery"
+    ],
+    "plugins": [
+      "aurelia-validate",
+      "aurelia-i18n"
+    ],
+    "typescript": {
+      "typings": [
+        "jquery"
+      ],
+      "dtsSources": [
+        "node_modules/jquery/**.*.d.ts"        
+      ]
+    }
+  }
+}

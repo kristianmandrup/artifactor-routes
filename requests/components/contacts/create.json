@@ -1,0 +1,42 @@
+{
+  "name": "my-contacts",
+  "description": "Contacts management",
+  "author": {
+    "name": "Kristian Mandrup",
+    "alias": "kmandrup",
+    "email": "kmandrup@gmail.com",
+    "organisation": "google",
+    "profile": "developers.google.com/kmandrup"
+  },
+  "type": [
+    "component"
+  ],
+  "keywords": [
+    "contacts"
+  ],
+  "categories": [
+    "entity"
+  ],
+  "version": "1.2",
+  "location": "github:kmandrup/contacts#1.2",
+  "notice": "Added bootstrap",
+  "status": "beta",
+  "ui-frameworks": {
+    "bootstrap": "stable",
+    "foundation": "beta"
+  },
+  "install": {
+    "bundles": {
+    },
+    "dependencies": {
+      "components": {
+        "entity": {
+          "version": "^1.0"
+        }
+      },
+      "libs": [
+        "lodash"
+      ]
+    }
+  }    
+}
