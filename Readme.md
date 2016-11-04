@@ -8,42 +8,25 @@ The Adapters all use the generic Models, Fakers and Validators in [artifactor-mo
 
 `npm i artifactor-routes`
 
-### Build
-TODO: Webpack
 
-`npm run build` - builds `/src` folder and puts resulting ES5 `.js` files in `/dist`
+## Development environment
 
-### Auto build
-TODO: Webpack
-
-`npm run watch` - builds `/src` and watches for changes to `/src` files for auto-build!
-
-### Run
-TODO: Webpack
-
-- `$ npm start` or `$ npm koa` - start the server
-
-Please be aware that the server currently doesn't respond to the root route. 
-
-The root `/` route is reserved for use with [GraphQL](http://dev.apollodata.com/).
-
-Try: `http://localhost:3000/components/contacts`
-
-### Troubleshooting
-TODO: Webpack
-
-If you still get an error, try removing the `dist` folder:
-
-`rm -r dist`
-
-Then recompile via `build` or `watch` task and start server again.
+Please see the `docs` folder, in particular `docs/env-setup/library-dev.md` 
+which describes the full development environment, how it was configured etc.
 
 ### Run Test or Test suite
-TODO: Webpack
 
 `npm test`
 
-We use [mocha-test-dsl](https://www.npmjs.com/package/mocha-test-dsl) for writing decoupled efficient, descriptive, higly flexible tests.
+Write tests using either:
+- [ava](https://github.com/ava/ava)
+- or [mocha-test-dsl](https://www.npmjs.com/package/mocha-test-dsl) if you prefer using [mocha]
+
+Note that Ava can use `spec` syntax via [ava-spec]()
+
+- Ava testing framework: [ava](https://github.com/ava/ava)
+- BDD: [ava-spec](https://www.npmjs.com/package/ava-spec)
+- test doubles: [testdouble.js]()
 
 ### Search engine
 
