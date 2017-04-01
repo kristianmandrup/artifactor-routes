@@ -1,5 +1,7 @@
 # Artifactor Adapters
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/artifactor-routes.svg?token=079e1c4710c9a3a6187c99e401cb0b194c15332aa2ef30c5f2cc109c6ae1cbfb)](https://greenkeeper.io/)
+
 Adapters for various backends to store and retrieve the domain models. The adapters are used by the API, primarily via [artifactor-routes](https://github.com/kristianmandrup/artifactor-routes)
 
 The Adapters all use the generic Models, Fakers and Validators in [artifactor-models](https://github.com/kristianmandrup/artifactor-models)
